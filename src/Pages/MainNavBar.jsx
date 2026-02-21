@@ -8,14 +8,14 @@ import ManagerLogin from './ManagerLogin';
 import CustomerLogin from './CustomerLogin';
 import './style.css';
 
-
 const MainNavBar = () => {
   return (
+    <div>
     <nav className="navbar">
       <div className="navbar-container">
         <div className="navbar-logo">
           <Link to="/" className="logo-link">
-            enduku KL Event Management System
+           kl Event Management System - 2500032418
           </Link>
         </div>
         <ul className="nav-menu">
@@ -57,16 +57,20 @@ const MainNavBar = () => {
             </ul>
           </li>
         </ul>
-        <Routes>
+      </div>
+    </nav>
+
+<Routes>
         <Route path="/" element={<Home />} />
-       <Route path="/about" element={<About />} />
+        <Route path="/about" element={<About />} />
         <Route path="/registration" element={<Registration />} />
         <Route path="/admin-login" element={<AdminLogin />} />
         <Route path="/manager-login" element={<ManagerLogin />} />
         <Route path="/customer-login" element={<CustomerLogin />} />
       </Routes>
-      </div>
-    </nav>
+
+
+    </div>
 
   );
 };
