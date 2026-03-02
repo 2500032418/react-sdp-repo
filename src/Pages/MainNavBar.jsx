@@ -8,6 +8,7 @@ import ManagerLogin from './ManagerLogin';
 import CustomerLogin from './CustomerLogin';
 import './style.css';
 
+
 const MainNavBar = () => {
   return (
     <div>
@@ -15,7 +16,7 @@ const MainNavBar = () => {
       <div className="navbar-container">
         <div className="navbar-logo">
           <Link to="/" className="logo-link">
-           K L Event Management System
+            Event Management System
           </Link>
         </div>
         <ul className="nav-menu">

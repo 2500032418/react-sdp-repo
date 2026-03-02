@@ -1,10 +1,12 @@
 import { BrowserRouter} from 'react-router-dom';
 import { useState, useEffect } from 'react';
-import './App.css';
-import MainNavBar from './pages/MainNavBar';
+//import './App.css';
+
 import AdminNavBar from './admin/AdminNavBar';
 import ManagerNavBar from './manager/ManagerNavBar';
-import CustomerNavBar from './Customer/CustomerNavBar';
+import CustomerNavBar from './customer/CustomerNavBar';
+import MainNavBar from './Pages/MainNavBar';
+
 
 function App() {
   const [isAdmin, setIsAdmin] = useState(false);
@@ -28,6 +30,7 @@ function App() {
          {isManager && <ManagerNavBar/>}
          {isCustomer && <CustomerNavBar/>}
          {!isAdmin && !isManager && !isCustomer && <MainNavBar/>}
+        
      </BrowserRouter>
   );
 }
