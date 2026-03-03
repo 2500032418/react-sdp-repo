@@ -4,8 +4,8 @@ import './customer.css';
 import CustomerHome from './CustomerHome';
 import BookEvent from './BookEvent';
 import CustomerLogout from './CustomerLogOut';
-import ViewEvents from "./viewEvents";
-import ViewBookingByCustomer from "./viewBookingByCustomer";
+import ViewEvents from "./ViewEvents";
+import ViewBookingByCustomer from "./ViewBookingByCustomer";
 
 
 export default function CustomerNavBar() {
