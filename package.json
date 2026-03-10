@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "home":"https://github.com/2500032418/react-sdp-repo"
+  "home":"https://github.com/2500032418/react-sdp-repo",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -11,6 +11,8 @@
     "preview": "vite preview",
     "predeploy":"npm run build",
     "deploy":"gh-pages -d dist"
+  
+    
     
   },
   "dependencies": {
