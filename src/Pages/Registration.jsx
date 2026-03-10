@@ -48,7 +48,7 @@ const Registration = () => {
       location: '',
     });
   };
-
+ 
   return (
     <div className="registration-container">
       <div className="registration-card">
